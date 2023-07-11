@@ -1,0 +1,1049 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Открытие брокерского счета в «Цифра брокер» (Фридом Финанс)</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css?v=2">
+    <link rel="stylesheet" href="/css/main.css?v=1689066142">
+    <link rel="stylesheet" href="/css/modal.css?v=1">
+    <script type="text/javascript">
+        if (!Array.prototype.indexOf) {
+            Array.prototype.indexOf = function (elt /*, from*/) {
+                var len = this.length >>> 0;
+
+                var from = Number(arguments[1]) || 0;
+                from = (from < 0)
+                    ? Math.ceil(from)
+                    : Math.floor(from);
+                if (from < 0)
+                    from += len;
+
+                for (; from < len; from++) {
+                    if (from in this &&
+                        this[from] === elt)
+                        return from;
+                }
+                return -1;
+            };
+        }
+    </script>
+    <script>var adv_sub = '0.88504900 1689066142';</script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src='/js/chosen.jquery.min.js'></script>
+    <script src='/js/banki.js'></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/jquery.inputmask.bundle.js" type="text/javascript"></script>
+    <script src="/js/jquery.inputmask-multi.min.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+    <script type="text/javascript">
+        var __cs = __cs || [];
+        __cs.push(["setCsAccount", "xsEbGVsp_lgznhNvbXyk24_K10cnOrzm"]);
+    </script>
+    <script type="text/javascript" async src="https://app.comagic.ru/static/cs.min.js"></script>
+    <meta name="google-site-verification" content="uPUdGCURBj9w4uf4f8iOOSTcAJoxopAPD_EDOTl3RBY"/>
+    <meta name="yandex-verification" content="843fbbaa6ecc688b"/>
+</head>
+
+<body>
+<!--  Tealium iQ  -->
+<script type="text/javascript">
+    var utag_data = {
+        customer_city: localStorage.getItem("c") ?? 'Москва',
+        page_environment: "public",
+        page_name: "home",
+        page_type: "homepage",
+        site_area: "Публичная"
+    }
+</script>
+<script type="text/javascript">
+    (function (a, b, c, d) {
+        a = 'https://tags.tiqcdn.com/utag/ffin-solution/main/prod/utag.js';
+        b = document;
+        c = 'script';
+        d = b.createElement(c);
+        d.src = a;
+        d.type = 'text/java' + c;
+        d.async = true;
+        a = b.getElementsByTagName(c)[0];
+        a.parentNode.insertBefore(d, a);
+    })();
+</script>
+
+<header>
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href='/'>
+                    <img src="./img/logo_n.svg" alt="Freedom Finance">
+                </a>
+            </div>
+            <div class="header__right">
+                <nav class="header__nav">
+                    <a href="#how" class="nav__item">
+                        Как все работает
+                    </a>
+                    <a href="#tariff" class="nav__item">
+                        Тарифы
+                    </a>
+                    <a href="#why" class="nav__item">
+                        Почему мы
+                    </a>
+                </nav>
+                <div class="header__actions">
+                    <div class="header__city" style="margin-right:20px;">
+                        <span class='cur lg' id="chosen_city">Москва</span>
+                        <div class="city__arrow lg">
+                            <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M6.5 8L0 0H13L6.5 8Z" fill="black"/>
+                            </svg>
+                        </div>
+                        <div class="city__pin sm">
+                            <svg width="21" height="35" viewBox="0 0 21 35" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M10.5 0C4.70073 0 0 5.10706 0 11.4076C0 17.7082 10.5 35 10.5 35C10.5 35 21 17.7359 21 11.4076C21 5.10706 16.2993 0 10.5 0ZM10.5 15.4044C8.78832 15.4044 7.38321 13.9056 7.38321 12.0182C7.38321 10.1586 8.76277 8.63204 10.5 8.63204C12.2117 8.63204 13.6168 10.1586 13.6168 12.0182C13.6168 13.9056 12.2117 15.4044 10.5 15.4044Z"
+                                        fill="#C6C6C6"/>
+                            </svg>
+                        </div>
+                        <div class="city__agreement">
+                            <div class="agreement__inner">
+                                <h3></h3>
+                                <div class="city__choose">
+                                    <div class="choose__yes">
+                                        <button>Да, все верно</button>
+                                    </div>
+                                    <div class="choose__no">
+                                        <button>Выбрать другой</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="city__select">
+                            <h3>Выберите свой город</h3>
+                            <div class="city__search lg">
+                                <input type="text" id='search' name='search'>
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.9847 7.71814L14.5283 12.1745" stroke="#B7B8BA" stroke-width="1.531"
+                                          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M18.5316 11.7213L16.2656 13.9117" stroke="#B7B8BA" stroke-width="1.531"
+                                          stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path
+                                            d="M15.1325 24.184C19.0602 25.3925 23.5166 24.4106 26.6889 21.3138C31.2208 16.7819 31.2208 9.45529 26.6889 4.99891C22.157 0.466997 14.8304 0.466997 10.374 4.99891C5.84209 9.53083 5.84209 16.8574 10.374 21.3138L1.6123 30"
+                                            stroke="#B7B8BA" stroke-width="1.531" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path
+                                            d="M18.4563 21.3138C22.9615 21.3138 26.6137 17.6616 26.6137 13.1563C26.6137 8.65111 22.9615 4.9989 18.4563 4.9989C13.951 4.9989 10.2988 8.65111 10.2988 13.1563C10.2988 17.6616 13.951 21.3138 18.4563 21.3138Z"
+                                            stroke="#B7B8BA" stroke-width="1.531" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="city__list">
+                                <span>Москва</span>
+                                <span>Архангельск</span>
+                                <span>Барнаул</span>
+                                <span>Волгоград</span>
+                                <span>Владивосток</span>
+                                <span>Воронеж</span>
+                                <span>Екатеринбург</span>
+                                <span>Иркутск</span>
+                                <span>Казань</span>
+                                <span>Калининград</span>
+                                <span>Кемерово</span>
+                                <span>Краснодар</span>
+                                <span>Красноярск</span>
+                                <span>Липецк</span>
+                                <span>Набережные челны</span>
+                                <span>Нижний Новгород</span>
+                                <span>Новосибирск</span>
+                                <span>Омск</span>
+                                <span>Оренбург</span>
+                                <span>Пермь</span>
+                                <span>Ростов-на-Дону</span>
+                                <span>Рязань</span>
+                                <span>Самара</span>
+                                <span>Санкт-Петербург</span>
+                                <span>Саратов</span>
+                                <span>Сочи</span>
+                                <span>Ставрополь</span>
+                                <span>Тольятти</span>
+                                <span>Томск</span>
+                                <span>Тюмень</span>
+                                <span>Уфа</span>
+                                <span>Челябинск</span>
+                                <span>Череповец</span>
+                                <span>Ярославль</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="promo__btns inhead">
+                        <a href="#form-link" class='btn btn--primary open-cons'
+                           onclick='
+                                   let data = {
+                                        "tealium_event" : "open_account_button",
+                                        "button_name" : "Открыть счет",
+                                        "customer_city" : localStorage.getItem("c"),
+                                        "page_environment" : "public",
+                                        "page_name" : "home",
+                                        "page_type" : "homepage",
+                                        "site_area" : "Публичная"
+                                        };
+                                   console.log(data)
+                                    utag.link(data)'>
+                            <span class='lg'>Открыть счет</span>
+                            <span class='sm'>Открыть счет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="promo">
+    <div class="promo__wrapper">
+        <div class="container">
+            <div class="promo__inner">
+                <div class="promo__content">
+                    <div class="content__inner">
+                        <h2></h2>
+                        <h1>ОТКРЫТИЕ БРОКЕРСКОГО СЧЕТА ОНЛАЙН</h1>
+                        <div class="promo__btns">
+                            <a href="#form-link" class='btn btn--primary open-cons'>
+                                <span class='lg'>Открыть счет бесплатно</span>
+                                <span class='sm'>Открыть счет бесплатно</span>
+                            </a>
+                        </div>
+                        <br>
+                        <a href="#tariff" style='font-size:16px;color:#4F9D3A;text-decoration:none;'>
+                            Посмотреть тарифы >
+                        </a>
+                    </div>
+                </div>
+                <div class="promo__items">
+                    <div class="promo__item">
+                        <img src="./img/fast.svg" alt="">
+                        <div class='item__desc'>
+                            <h3>Быстро</h3>
+                            <p>
+                                Вы можете открыть брокерский счет без посещения офиса
+                            </p>
+                        </div>
+                    </div>
+                    <div class="promo__item">
+                        <img src="./img/free.svg" alt="">
+                        <div class='item__desc'>
+                            <h3>Бесплатно</h3>
+                            <p>
+                                Нет минимальной суммы входа. Ведение счета бесплатно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="promo__item">
+                        <img src="./img/nocom.svg" alt="">
+                        <div class='item__desc'>
+                            <h3>Без комиссий</h3>
+                            <p>
+                                Акции можно купить с помощью карты. Отсутствие комиссии. Вы платите только за
+                                совершение сделок
+                            </p>
+                        </div>
+                        <div id='how'></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="container">
+        <div class="info__inner">
+            <h2>открытие счета</h2>
+            <h1>как все работает?</h1>
+            <p>Увеличить свою доходность очень просто, когда рядом команда надежных профессионалов фондового рынка.
+                Все, что мы делаем – от консультирования и аналитики до создания инвестиционных продуктов, - направлено
+                на приумножение вашего капитала</p>
+            <div class="info__slider">
+                <div class="info__content">
+                    <div class="info__block info_one info--active">
+                        <div class="info__heading one__heading">
+                            <h2>Вы открываете счет</h2>
+                        </div>
+                        <div class="one__row">
+                            <h3>БЕСПЛАТНО</h3>
+                            <span>открытие счета</span>
+                        </div>
+                        <div class="one__row">
+                            <h3>БЕСПЛАТНО</h3>
+                            <span>обслуживание счета</span>
+                        </div>
+                        <div class="one__row">
+                            <h3>0 РУБ.</h3>
+                            <span>минимальная сумма входа</span>
+                        </div>
+                        <div class="one__center">
+                            <a href='#form-link' class=''>
+                                <button>Хочу открыть счет</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info__block info__two">
+                        <div class="info__heading two__heading">
+                            <h2>Пополняете счет</h2>
+                        </div>
+                        <div class="two__list">
+                            <p>Перевод с карты Банка «Цифра банк» без комиссиии</p>
+                        </div>
+                        <div class="two__list">
+                            <p>В любом удобном банке по реквизитам своего счета</p>
+                        </div>
+                        <div class="two__info">
+                                <span>Реквизиты счета можно узнать у своего инвестиционного консультанта или посмотреть
+                                    в личном кабинете</span>
+                        </div>
+                    </div>
+                    <div class="info__block info__three">
+                        <div class="info__heading three__heading">
+                            <h2>Выбираете инвестиционные продукты</h2>
+                        </div>
+                        <div class="three__info">
+                                <span>Собрать свой портфель очень просто. Если у вас нет опыта, вы можете
+                                    воспользоваться помощью консультанта</span>
+                        </div>
+                        <div class="two__list">
+                            <p>Самостоятельно</p>
+                        </div>
+                        <div class="two__list">
+                            <p>С консультантом</p>
+                        </div>
+                    </div>
+                    <div class="info__block info__four">
+                        <div class="info__heading four__heading">
+                            <h2>Получаете результат</h2>
+                        </div>
+                        <div class="three__info">
+                                <span>Торговать очень просто. Приобретать инвестиционные продукты в свой портфель можно
+                                    одним из способов:</span>
+                        </div>
+                        <div class="two__list">
+                            <p>Через менеджера по телефону</p>
+                        </div>
+                        <div class="two__list">
+                            <p>Через платформу Tradernet (бесплатно)</p>
+                        </div>
+                        <div class="two__list">
+                            <p>Через платформу Quik (бесплатно)</p>
+                        </div>
+                        <div class="one__center">
+                            <a href='#' class='open-modal'>
+                                <a href='#form-link' class=''>
+                                    <button>Хочу открыть счет</button>
+                                </a>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info__progress_outer">
+                        <div class="info__progress_o">
+                            <div class="info__progress">
+                                <div class="info__progress_n"></div>
+                            </div>
+                        </div>
+                        <div class="info__progress_o">
+                            <div class="info__progress">
+                                <div class="info__progress_n"></div>
+                            </div>
+                        </div>
+                        <div class="info__progress_o">
+                            <div class="info__progress">
+                                <div class="info__progress_n"></div>
+                            </div>
+                        </div>
+                        <div class="info__progress_o">
+                            <div class="info__progress">
+                                <div class="info__progress_n"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__controls">
+                    <div class="controls__tab controls__tab--active">
+                        <div class="tab__number">
+                            <span>1</span>
+                        </div>
+                        <div class="tab__text">
+                            <span>Вы открываете счет</span>
+                        </div>
+                    </div>
+                    <div class="controls__tab">
+                        <div class="tab__number">
+                            <span>2</span>
+                        </div>
+                        <div class="tab__text">
+                            <span>Пополняете счет</span>
+                        </div>
+                    </div>
+                    <div class="controls__tab">
+                        <div class="tab__number">
+                            <span>3</span>
+                        </div>
+                        <div class="tab__text">
+                            <span>Выбираете инвестиционные продукты</span>
+                        </div>
+                    </div>
+                    <div class="controls__tab">
+                        <div class="tab__number">
+                            <span>4</span>
+                        </div>
+                        <div class="tab__text">
+                            <span>Получаете результат</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tariff"></div>
+        </div>
+    </div>
+
+</section>
+
+<section class="tarif">
+    <div class="container">
+        <div class="container1">
+            <div class="container2">
+                <h2 class="heading-2_white">Тарифы</h2>
+                <h1 class="heading-1_white">минимальная комиссия</h1>
+                <p class="heading-text_white">Мы поможем вам выбрать тариф, чтобы вы могли приступить к достижению
+                    финансовых целей уже сегодня. Тариф можно поменять на любой другой и после открытия счета в любой
+                    день.
+                </p>
+                <div class="tarif__wrapper">
+                    <div class="tarif__block">
+                        <h6 class="tarif__name">«Стандартный»</h6>
+                        <p>Для самостоятельной торговли</p>
+                        <div class="tarif__tohide">
+                            <span class="tarif__cost">0 ₽ в месяц</span>
+                            <span class="tarif__description">
+							Абонентская плата отсутвует
+						</span>
+                            <div class="tarif__option">
+                                Открытие счета, обслуживание счета, закрытие счета
+                                <strong>Бесплатно</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Комиссия за сделку
+                                <strong>0,12% от суммы сделки</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Контракт, предмет срочной сделки <i>i</i>
+                                <strong>1 ₽ </strong>
+                            </div>
+                            <a href="/standart.pdf?1689066142" target="_blank" class="tariff-pdf"
+                               onclick='utag.link({
+                            "tealium_event" : "download_tariff_info",
+                            "customer_city" : localStorage.getItem("c"),
+                            "page_environment" : "public",
+                            "page_name" : "home",
+                            "page_type" : "homepage",
+                            "site_area" : "Публичная",
+                            "tariff_name" : "Стандартный"
+                        })'>Подробная информация о тарифе «Стандартный»<p>PDF 416 KB</p></a>
+                            <a href='#form-link' class='open-modal'
+                               onclick='utag.link({
+                                "tealium_event" : "tariff_selection",
+                                "button_name" : "Выбрать тариф",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная",
+                                "tariff_name" : "Стандартный"
+                        })'>
+                                <button class="tarif__button">Выбрать</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tarif__block tarif__block--active">
+                        <div class="best-offer">Лучшее предложение</div>
+                        <h6 class="tarif__name">«Консультационный»</h6>
+                        <p>Для клиентов, которые хотят пользоваться персональной консультацией по формированию и
+                            управления портфелем </p>
+                        <div class="tarif__tohide">
+                            <span class="tarif__cost">0 ₽ в месяц</span>
+                            <span class="tarif__description">
+							Абонентская плата отсутвует
+						</span>
+                            <div class="tarif__option">
+                                Открытие счета, обслуживание счета, закрытие счета
+                                <strong>Бесплатно</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Комиссия за сделку
+                                <strong>0,5% от суммы сделки</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Контракт, предмет срочной сделки <i>i</i>
+                                <strong>1 ₽ </strong>
+                            </div>
+                            <a href="/consult.pdf?1689066142" target="_blank" class="tariff-pdf"
+                               onclick='utag.link({
+                                "tealium_event" : "download_tariff_info",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная",
+                                "tariff_name" : "Консультационный"
+                        })'>Подробная информация о тарифе «Консультационный»<p>PDF 40 KB</p></a>
+                            <a href='#form-link' class='open-modal'
+                               onclick='utag.link({
+                                "tealium_event" : "tariff_selection",
+                                "button_name" : "Выбрать тариф",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная",
+                                "tariff_name" : "Консультационный"
+                        })'>
+                                <button class="tarif__button">Выбрать</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tarif__block">
+                        <h6 class="tarif__name">«Все включено»</h6>
+                        <p>Для трейдеров и инвесторов, которые совершают более 5 сделок в месяц</p>
+                        <div class="tarif__tohide">
+                            <span class="tarif__cost">600 ₽ в месяц</span>
+                            <span class="tarif__description">
+							Абонентская плата
+						</span>
+                            <div class="tarif__option">
+                                Открытие счета, обслуживание счета, закрытие счета
+                                <strong>Бесплатно</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Комиссия за сделку <i class="special">i</i>
+                                <strong>0% от суммы сделки</strong>
+                            </div>
+                            <div class="tarif__option">
+                                Контракт, предмет срочной сделки <i>i</i>
+                                <strong>1 ₽ </strong>
+                            </div>
+                            <a href="/all.pdf?1689066142" target="_blank" class="tariff-pdf"
+                               onclick='utag.link({
+                                "tealium_event" : "download_tariff_info",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная",
+                                "tariff_name" : "Все включено"
+                        })'>Подробная информация о тарифе «Все включено»<p>PDF 41 KB</p></a>
+                            <a href='#form-link' class='open-modal'
+                               onclick='utag.link({
+                                "tealium_event" : "tariff_selection",
+                                "button_name" : "Выбрать тариф",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная",
+                                "tariff_name" : "Все включено"
+                        })'>
+                                <button class="tarif__button">Выбрать</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<a name="form-link"></a>
+<section class="form-sw">
+</section>
+
+<section class="form form0">
+    <div class="container">
+        <div class="form__inner">
+            <div class="form__wrapper" id='form'>
+                <h1>Открытие счета</h1>
+                <h2>Введите Ваши контактные данные. На указанный Вами номер телефона придет код подтверждения.</h2>
+                <div class="warning">
+                    Открытие счета на данной странице доступно только физическим лицам старше 18 лет
+                </div>
+                <div class="sms-error">Неверный код подтверждения, проверьте правильность ввода телефона</div>
+                <div class="capcha-error">Допустимы только номера телефонов РФ</div>
+
+                <form id="sendForm" method="post">
+                    <input type="hidden" id="_csrf" value="xBZ8NeeEGhgAhkH1u6xTScRp6POdpiWm9uzadOvjJMmAxWFwE9ek8cuDD9pPzvqr">
+                    <div class="form__row">
+                        <div class="form__input">
+                            <input type="text" name="name" id="name" placeholder=" ">
+                            <label for="name">Имя</label>
+                        </div>
+                        <div class="form__input">
+                            <input type="text" name="lastname" id="lastname" placeholder=" ">
+                            <label for="lastname">Фамилия</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input">
+                            <input type="text" name="email" id="email" placeholder=" ">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="form__input">
+                            <input type="text" name="phone" id="phone" placeholder=" " value="7">
+                            <label for="phone">Телефон</label>
+                        </div>
+                    </div>
+                    <div class="form__row" id="div-code" style="display:none;">
+                        <div class="form__input">
+                        </div>
+                        <div class="form__input">
+                            <input type="text" name="code" id="code" placeholder="Введите код подтверждения" value="">
+                        </div>
+                    </div>
+
+                    <div class="form__row--center">
+                        <button>Оставить заявку</button>
+                    </div>
+
+                    <div class="form__row--center small-margin">
+                        <div class="form__cb">
+                            <input type="checkbox" name="cb1" id="cb1">
+                            <label for="cb1">
+                                Я согласен с политикой конфиденциальности и даю <a href='#' class="openSogl">согласие на
+                                    обработку моих персональных данных</a>
+                            </label>
+                        </div>
+                        <div class="form__cb">
+                            <input type="checkbox" name="cb2" id="cb2">
+                            <label for="cb2">
+                                Подтверждаю свое согласие на получение информации о продуктах и услугах ООО «Цифра брокер» по СМС и email
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <div id='why'></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="why">
+    <div class="why__wrapper">
+        <div class="container">
+            <div class="why__inner">
+                <h1>«Цифра брокер»</h1>
+                <p>Одна из ведущих инвестиционных компаний в&nbsp;России</p>
+                <div class="why__items">
+                    <div class="why__item">
+                        <img src="/img/icon1.svg" alt="">
+                        <div class="why__desc">
+                            <h3>Рейтинг ruBBB</h3>
+                            <p>От «Эксперт РА», прогноз развивающийся</p>
+                        </div>
+                    </div>
+                    <div class="why__item">
+                        <img src="/img/icon3.svg" alt="">
+                        <div class="why__desc">
+                            <h3>Участник торгов</h3>
+                            <p>Московской Биржи и СПБ Биржи, член НАУФОР</p>
+                        </div>
+                    </div>
+                    <div class="why__item">
+                        <img src="/img/icon4.svg" alt="">
+                        <div class="why__desc">
+                            <h3>Диплом Эксперт РА</h3>
+                            <p>В номинации «За вклад в популяризацию частных инвестиций»</p>
+                        </div>
+                    </div>
+                    <div class="why__item">
+                        <img src="/img/icon2.svg" alt="">
+                        <div class="why__desc">
+                            <h3>Лицензии Банка России</h3>
+                            <p>На осуществление брокерской деятельности и иных видов деятельности</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+    .why__wrapper .container {
+        background-image: unset;
+    }
+
+    .why__inner {
+        width: 100%;
+    }
+
+    .why__items {
+        flex-wrap: nowrap;
+    }
+
+    .why__item {
+        display: flex;
+        width: 33.33%;
+    }
+
+    .why__item img {
+        margin-right: 16px;
+    }
+
+    .why__item h3 {
+        font-size: 20px;
+    }
+
+    .why__items > div.why__item {
+        margin-right: 20px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .why__items {
+            flex-wrap: wrap;
+        }
+
+        .why__inner .why__items .why__item {
+            width: 45%;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        .why__inner .why__items .why__item {
+            width: 100%;
+        }
+    }
+</style>
+<section class="why" id='why' style="display:none;">
+    <div class="why__wrapper">
+        <div class="container">
+            <div class="why__inner">
+                <h2>почему мы?</h2>
+                <h1>ИК «ФРИДОМ ФИНАНС»</h1>
+                <p>одна из ведущих инвестиционных компаний <br />
+в России</p>
+                <div class="why__items">
+                                            <div class="why__item">
+                            <img src="/upload/iblock/79e/icon-_1_.svg" alt="">
+                            <div class="why__desc">
+                                <h3>Рейтинг ruBBB</h3>
+                                <p>От «Эксперт РА», прогноз развивающийся</p>
+                            </div>
+                        </div>
+                                                <div class="why__item">
+                            <img src="/upload/iblock/9dc/icon.svg" alt="">
+                            <div class="why__desc">
+                                <h3>Лицензии Банка России</h3>
+                                <p>На осуществление брокерской деятельности и иных видов деятельности</p>
+                            </div>
+                        </div>
+                                                <div class="why__item">
+                            <img src="/upload/iblock/d3b/stock-1.svg" alt="">
+                            <div class="why__desc">
+                                <h3>Участник торгов</h3>
+                                <p>Московской Биржи и СПБ Биржи, член НАУФОР</p>
+                            </div>
+                        </div>
+                                                <div class="why__item">
+                            <img src="/upload/iblock/512/x0A_License.svg" alt="">
+                            <div class="why__desc">
+                                <h3>Диплом Эксперт РА</h3>
+                                <p>В номинации «За вклад в популяризацию частных инвестиций»</p>
+                            </div>
+                        </div>
+                                        </div>
+            </div>
+        </div>
+        <!--			<div class="why__bg"></div>-->
+    </div>
+</section>
+
+<div id="p-conf" class="popup">
+    <div>
+            <h3>Политика конфиденциальности ООО «Цифра брокер»</h3>
+        <p>Уважаемые пользователи Сайта/Сервисов Сайта,</p>
+        <p>просим вас внимательно ознакомиться с настоящей Политикой конфиденциальности ООО «Цифра брокер» (далее — Политика), чтобы получить полное представление о наших принципах и правилах, касающихся обработки в Цифра брокер предоставленной вами Информации.</p>
+        <p>Условием использования Сайта и (или) Сервисов Сайта является ваше согласие с Политикой, размещенной на Сайте.</p>
+        <p>Политика разработана в соответствии с требованиями законодательства Российской Федерации и действует в отношении всей информации, которую Цифра брокер может получить о вас во время использования вами Сайта и (или) Сервисов.</p>
+
+        <p><b>1.	Термины и определения</b></p>
+        <p>1.1. Информация — вся информация, в том числе, но не ограничиваясь, ваши персональные данные, как они определены в Федеральном законе от 27.07.2006 № 152-ФЗ «О персональных данных», которую Цифра брокер может получить о вас в процессе пользования вами Сайта и (или) Сервисов Цифра брокер с ваших устройств.</p>
+        <p>1.2. Конфиденциальность информации — обязательное для выполнения лицом, получившим доступ к определенной информации, требование не передавать такую информацию третьим лицам без согласия ее обладателя за исключением случаев, установленных Политикой.</p>
+        <p>1.3. Сайт — сайт в сети Интернет в значении, указанном в статье 2 Федерального закона от 27.07.2006 № 149-ФЗ «Об информации, информационных технологиях и о защите информации», имеющий одно из следующих доменных имен: cifra-broker.ru, job.cifra-broker.ru, account.cifra-broker.ru, а также иные существующие на данный момент сайты в сети Интернет, а также поддомены Сайта, используемые Цифра брокером для оказания услуг, условия использования которых ссылаются на данную Политику, в том числе поддомены Сайта, условия использования которых ссылаются на данную Политику, а также мобильные приложения, правообладателем которых является Цифра брокер, доступные для загрузки на Сайте или внешних ресурсах.</p>
+        <p>1.4. Сервисы — функциональные возможности Сайта (программы, службы, продукты, функции, интерфейсы, веб-формы), размещенные на Сайте.</p>
+        <p>1.5. Субъект — физическое лицо, которое прямо или косвенно определено или определяемо с помощью персональных данных.</p>
+        <p>1.6. Клиент, Пользователь, Cубъект — приобретатель услуг Цифра брокера.</p>
+        <p>1.7. Услуги — услуги по осуществлению брокерской, дилерской, депозитарной деятельности и деятельности по управлению ценными бумагами, услуги по инвестиционному консультированию, в том числе открытие индивидуального инвестиционного счета, предоставление доступа к участию в размещении акций, организация выпуска ценных бумаг и андеррайтинг, консультирование по предлагаемым продуктам, иные услуги, оказываемые Цифра брокер с использованием Сайта/Сервисов.</p>
+        <p>1.8. Цифра брокер — ООО «Цифра брокер» (ИНН: 7705934210; ОГРН: 1107746963785; адрес места нахождения: 123112, г. Москва, 1-й Красногвардейский проезд, д. 15, офис 18.02).</p>
+
+        <p><b>2. Общие положения</b></p>
+        <p>2.1. Целью Политики является обеспечение надлежащей защиты Информации от несанкционированного доступа и разглашения.</p>
+        <p>2.2. Цифра брокер проверяет достоверность получаемой (собираемой) Информации о вас, только если вы являетесь клиентом Цифра брокер.</p>
+        <p>2.3. Цифра брокер не создает общедоступные источники персональных данных на основе Информации о вас.</p>
+        <p>2.4. В целях исполнения заключенного с вами договора, Цифра брокер может осуществлять трансграничную передачу Информации на территории иностранных государств, являющихся сторонами Конвенции Совета Европы о защите физических лиц при автоматизированной обработке персональных данных, а также иных иностранных государств, обеспечивающих адекватную защиту прав субъектов персональных данных (Республика Казахстан, Республика Кипр), а также США.</p>
+        <p>2.5. В случае несогласия с условиями Политики вы должны прекратить использование Сайта и (или) Сервисов.</p>
+
+        <p><b>3. Цели обработки Информации</b></p>
+        <p>3.1. Цифра брокер обрабатывает Информацию для следующих целей:</p>
+        <p>• упрощенная идентификация клиента, обновление сведений о клиенте на Сайте (перечень обрабатываемой Информации указан в форме анкеты клиента);</p>
+        <p>• оказание Услуг, предоставление Сервисов на Сайте (перечень обрабатываемой Информации: фамилия, имя, телефон, электронный адрес, другие персональные данные, указанные в согласии на обработку персолнальных данных);</p>
+        <p>• обеспечение связи с вами, в том числе направление уведомлений, сообщений, запросов и информации, касающихся оказания услуг и (или) использования Сервисов (перечень обрабатываемой Информации: фамилия, имя, телефон, электронный адрес);</p>
+        <p>• проведение рекламных, маркетинговых, обучающих мероприятий, включая, но не ограничиваясь: выдача призов участникам, проведение вебинаров и онлайн-курсов, предоставление аналитических материалов (перечень обрабатываемой Информации: фамилия, имя, телефон, электронный адрес, город, информация о том, являетесь ли вы клиентом Цифра брокер, другие персональные данные);</p>
+        <p>• улучшение качества и удобства использования Сервисов (перечень обрабатываемой Информации: фамилия, имя, телефон, электронный адрес, файлы cookie);</p>
+        <p>• направление вам информации о продуктах и услугах Цифра брокер, в том числе, таргетированных рекламных материалов, а также реализация партнерских программ (перечень обрабатываемой Информации: фамилия, имя, телефон, электронный адрес, файлы cookie);</p>
+        <p>• привлечение и отбор соискателей на работу во Цифра брокер и учет в кадровом резерве (перечень обрабатываемой Информации: фамилия, имя, электронный адрес, иные данные, указанные в резюме).</p>
+        <p>Цифра брокер не собирает с помощью Сайта или Сервисов Сайта чувствительную персональную информацию такую, как расовая принадлежность, политические взгляды, информация о здоровье и биометрические данные.</p>
+
+        <p><b>4. Передача Информации третьим лицам</b></p>
+        <p>4.1. Цифра брокер предоставляет доступ к вашим Персональным данным следующим категориям получателей:</p>
+        <p>• аффилированным лицам Цифра брокер;</p>
+        <p>• лицам, которым Цифра брокер обязано или имеет право раскрыть Информацию о вас в соответствии с требованиями законодательства Российской Федерации или условиями заключенных Российской федерацией международных договоров, а также лицам, указанным в вашем согласии на обработку персональных данных;</p>
+        <p>• контрагентам Цифра брокер в соответствии с заключенными договорами при наличии вашего согласия на обработку персональных данных.</p>
+
+        <p><b>5. Требования по защите Информации</b></p>
+        <p>5.1. Информация хранится в защищенных системах и доступна только ограниченному кругу лиц, обладающих особыми правами доступа к таким системам, и с которыми подписаны соответствующие соглашения о соблюдении конфиденциальности Информации.</p>
+        <p>5.2. Цифра брокер реализовал достаточные технические и организационные меры для защиты Информации от несанкционированного, случайного или незаконного уничтожения, потери, изменения, недобросовестного использования, раскрытия или доступа, а также иных незаконных форм обработки. Данные меры безопасности были реализованы с учетом современного уровня техники, стоимости их реализации, рисков, связанных с обработкой и характером Информации.</p>
+
+        <p><b>6. Хранение Информации</b></p>
+        <p>6.1. Цифра брокер вправе хранить Информацию не дольше, чем этого требуют цели обработки Информации, либо до момента отзыва вами согласия на обработку персональных данных, если более длительный срок хранения Информации не установлен федеральным законом, договором, стороной которого, выгодоприобретателем или поручителем по которому, является субъект персональных данных.</p>
+        <p>6.2. При сборе персональных данных Цифра брокер осуществляет запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение персональных данных граждан Российской Федерации с использованием баз данных, находящихся на территории Российской Федерации.</p>
+
+        <p><b>7. Уничтожение Информации.</b></p>
+        <p>7.1. В течение 30 (тридцати) дней с даты достижения целей обработки персональных данных или отзыве согласия на обработку персональных данных Цифра брокер уничтожает персональные данные субъектов в соответствии с внутренними нормативными документами Цифра брокер с обязательным оформлением акта об уничтожении информации, содержащей персональные данные. Цифра брокер вправе продолжить обработку персональных данных, в том числе хранение, после достижения целей обработки персональных данных субъектов, а также без их согласия, в случаях, установленных законодательством Российской Федерации.</p>
+        <p>7.2. Субъект персональных данных вправе требовать от Цифра брокера уточнения его персональных данных, их блокирования или уничтожения в случае, если персональные данные являются неполными, устаревшими, неточными, незаконно полученными или не являются необходимыми для заявленной цели обработки.</p>
+
+        <p><b>8. Права и обязанности</b></p>
+        <p>8.1. При регистрации на Сайте и (или) Сервисах Сайта вы даете согласие на обработку персональных данных в соответствии с Политикой путем проставления электронной отметки в специальном чек-боксе.</p>
+        <p>8.2. Пользователь вправе на основании запроса, направленному ответственному за организацию обработки персональных данных на адрес hr@cifra-broker.ru или privacy@cifra-broker.ru (в зависимости от того, являетесь вы соискателем или пользователем иных услуг Сайта) получать от Цифра брокера сведения, касающиеся обработки вашей Информации, в том числе, получение копии персональных данных, которые обрабатываются Цифра брокером в течение срока, установленного законодательством Российской Федерации, но не позднее 15 (пятнадцати) рабочих дней с даты получения запроса.</p>
+        <p>8.3. Пользователь обязуется при наличии оснований периодически обновлять и (или) актуализировать свои персональные данные в составе Информации с помощью сервисов, реализованных в информационных системах Цифра брокера, или путем направления запроса на адрес hr@cifra-broker.ru или privacy@cifra-broker.ru (в зависимости от того, являетесь вы соискателем вакансии или пользователем иных услуг Сайта).</p>
+        <p>8.4. Пользователь вправе инициировать ограничение обработки Информации, когда выявлена неправомерная обработка Информации.</p>
+        <p>8.5. Пользователь имеет право потребовать ограничить обработку своей Информации в целях маркетинговых активностей Цифра брокер.</p>
+        <p>8.6. Пользователь имеет право отозвать свое согласие на обработку персональных данных на основании соответствующего подписанного вами письменного заявления, направленного на адрес privacy@cifra-broker.ru. Цифра брокер уничтожит ваши персональные данные в соответствии с п. 7 Политики. При этом оказание вам Услуг, предоставление Сервисов на Сайте может быть прекращено.</p>
+        <p>Обработка персональных данных без вашего согласия может быть продолжена в случаях, порядке и объеме, предусмотренных законодательством Российской Федерации. В частности, Цифра брокер может обрабатывать ваши персональные данные не менее 5 лет со дня прекращения договорных отношений с вами (п. 2.5 ст. 2 Положения Банка России от 12.12.2014 № 444-П «Об идентификации некредитными финансовыми организациями клиентов, представителей клиента, выгодоприобретателей, бенефициарных владельцев в целях противодействия легализации (отмыванию) доходов, полученных преступным путем, и финансированию терроризма»).</p>
+        <p>8.7.  Для получения информации, указанной в п. 8.2-8.6 Политики, необходимо оформить запрос, который должен содержать номер основного документа, удостоверяющего личность субъекта персональных данных или его законного представителя, сведения о дате выдачи указанного документа и выдавшем его органе, сведения, подтверждающие ваше в отношениях с Цифра брокером (номер договора, дата заключения договора, условное словесное обозначение и (или) иные сведения), либо сведения, иным образом подтверждающие факт обработки персональных данных Цифра брокером, и собственноручную подпись Пользоввателя или его законного представителя. Запрос может быть направлен в электронной форме и подписан электронной цифровой подписью в соответствии с действующим законодательством Российской Федерации. Законный представитель представляет оператору документ, подтверждающий его полномочия.</p>
+        <p>8.8. Пользователь обязуется принимать необходимые меры для обеспечения конфиденциальности учетных данных (логин и пароль), используемых для доступа к Сервисам во избежание их компрометации.</p>
+        <p>8.9. Цифра брокер должен удалить Информацию о Пользователе с Сайта и (или) Сервисов Сайта, при наступлении одного из следующих условий:</p>
+        <p>• достижение целей обработки Информации;</p>
+        <p>• Пользователь отозвал свое согласие, на основании которого проводилось обработка Информации, за исключением случаев, при которых Цифра брокер вправе или обязан продолжить обработку Информации в соответствии с требованиями законодательства Российской Федерации;</p>
+        <p>• информация обрабатывается незаконно.</p>
+        <p>8.10. Цифра брокер должен произвести удаление Информации о Пользователе в своих информационных системах в течение 30 (тридцати) дней с момента наступления одного из условий, указанных в п. 8.9 Политики, при этом учетные записи Пользователя блокируются.</p>
+        <p>8.11. Цифра брокер обязан использовать полученную Информацию исключительно для целей указанных в п. 3 Политики.</p>
+        <p>8.12. Цифра брокер обязан обеспечить хранение Информации в тайне и не разглашать ее без согласия Пользователя, а также не осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами переданной Информации, за исключением передачи Информации уполномоченным государственным органам по основаниям и в порядке, установленным законодательством Российской Федерации.</p>
+        <p>8.13. Цифра брокер обязан соответствовать применимому законодательству в области защиты персональных данных в составе Информации, а также условиям договоров между Цифра брокер и ее клиентами.</p>
+        <p>8.14. В случае обнаружения Цифра брокером инцидента информационной безопасности, который может повлечь за собой (или повлекшего) нарушение конфиденциальности и целостности ваших персональных данных, Цифра брокер обязуется уведомить Пользователя о выявленном инциденте в течение 24 (двадцати четырех) часов после выявления и локализации (установления деталей) инцидента.</p>
+
+        <p><b>9. Ответственность</b></p>
+        <p>9.1. Цифра брокер и Пользователи Сайта, нарушившие свои обязательства по защите Информации, несут ответственность за ущерб, причиненный в связи с неправомерным использованием Информации (в том числе, но не ограничиваясь, неправомерным использованием персональных данных) в соответствии с законодательством Российской Федерации.</p>
+
+        <p><b>10. Дополнительные условия</b></p>
+        <p>10.1. Цифра брокер приветствует ваши вопросы и предложения, касающиеся исполнения или изменения Политики. Для этого вы можете написать нам на адрес privacy@cifra-broker.ru.</p>
+
+        <p><b>11. Изменение условий Политики</b></p>
+        <p>11.1. Цифра брокер вправе вносить изменения в Политику.</p>
+        <p>11.2. При внесении изменений в Политику, мы уведомляем об этом пользователя путем размещения новой редакции Политики на Сайте. Продолжение пользования Сайтом, Сервисами после публикации новой редакции Политики на Сайте означает безусловное согласие пользователя с новой редакцией Политики. На пользователе лежит обязанность знакомиться с текстом Политики при каждом посещении Сайта.</p>
+        <p>11.3. При размещении на Сайте новой редакции Политики предыдущая редакция Политики хранится на Сайте в разделе «Раскрытие информации -> Политика конфиденциальности -> недействующие редакции документов» или аналогичном. Новая редакция Политики вступает в силу с момента ее размещения на Сайте.</p>
+
+        <a href="#" class="pu-close"><strong>ЗАКРЫТЬ</strong></a>
+        <a href="#" class="pu-close" title="Закрыть" style="display:block;position:absolute;top:10px;right:15px;"><img
+                    src="/img/close.png" alt="Закрыть"></a>
+    </div>
+</div>
+<div id="p-sogl" class="popup">
+    <div>
+        <h3>Согласие на обработку персональных данных</h3>
+        <p>Настоящим, действуя своей волей и в своем интересе, при размещении (вводе) своих персональных данных на Сайте, даю свое согласие Обществу с ограниченной ответственностью «Цифра брокер» (краткое наименование: ООО «Цифра брокер», ОГРН: 1107746963785, адрес места нахождения: 123112, г. Москва, 1-й Красногвардейский проезд, дом 15, офис 18.02), именуемому в дальнейшем «Оператор», на обработку своих персональных данных путем проставления признака согласия в чек-боксе рядом с текстом согласия на обработку персональных данных в графическом интерфейсе Сервиса, на следующих условиях:</p>
+        <p>Оператор осуществляет обработку моих персональных данных в целях оказания Услуг, предоставление Сервисов на Сайте, направления уведомлений, сообщений, запросов и информации, касающихся оказания услуг, улучшения качества и удобства использования Сервисов на Сайте.</p>
+        <p>Перечень персональных данных, передаваемых Оператору на обработку: фамилия, имя, телефонный номер, адрес электронной почты.</p>
+        <p>Даю согласие на автоматизированную и неавтоматизированную обработку Оператором своих персональных данных, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, предоставление, доступ, передачу, обезличивание, блокирование, удаление, уничтожение персональных данных.</p>
+        <p>Даю согласие на поручение обработки моих персональных данных третьим лицам в целях улучшения качества и удобства использования Сервисов на Сайте на основании заключенных с ними договоров.</p>
+        <p>Даю согласие на поручение обработки и передачу (в том числе, трансграничную) персональных данных (фамилия, имя, отчество, контактный номер телефона, адрес электронной почты) партнерам Оператора с целью обеспечения связи с субъектом, в том числе направления уведомлений, сообщений, запросов и информации, касающихся оказания услуг и/или использования сервисов Оператора, а также реализации партнерских программ.</p>
+        <p>Настоящее Согласие действует 5 (пять) лет с момента предоставления персональных данных.</p>
+        <p>Настоящее Согласие может быть отозвано путем направления письменного заявления на адрес электронной почты Оператора: privacy@cifra-broker.ru.</p>
+        <p>Подтверждаю, что я ознакомлен(а) с положениями Федерального закона от 27.07.2006 № 152-ФЗ «О персональных данных», права и обязанности в области защиты персональных данных мне разъяснены.</p>
+        <a href="#" class="pu-close"><strong>ЗАКРЫТЬ</strong></a>
+        <a href="#" class="pu-close" style="display:block;position:absolute;top:10px;right:15px;"><img
+                    src="/img/close.png" alt="Закрыть"></a>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__row">
+                <div class="footer__logo">
+                    <img src="./img/logo_n.svg" alt="">
+                </div>
+                <div class="footer__info">
+                    <a href='#' onclick="$('#p-conf').show();return false;">Политика конфиденциальности</a>
+                    <a href='#' class="link-modal--pib">Политика информационной безопасности</a>
+                    <a href='https://old.cifra-broker.ru/about/company/requisites.php?utm_source=yandex&utm_medium=cpc&utm_campaign=BS_web_srch_kosv_Msk&utm_term=инвестиции' target="_blank">Раскрытие
+                        информации</a>
+                    <a href='https://old.cifra-broker.ru/about/company/requisites.php?utm_source=yandex&utm_medium=cpc&utm_campaign=BS_web_srch_kosv_Msk&utm_term=инвестиции' target="_blank">Лицензии</a>
+                </div>
+                <div class="footer__call">
+                    <a href="#form-link" class='open-cons footer-button'
+                       onclick='utag.link({
+                                "tealium_event" : "get_consultation_button",
+                                "button_name" : "Получить консультацию",
+                                "customer_city" : localStorage.getItem("c"),
+                                "page_environment" : "public",
+                                "page_name" : "home",
+                                "page_type" : "homepage",
+                                "site_area" : "Публичная"
+                          })'>Получить консультацию</a>
+                    <a href="tel:+74957839173">+7 (495) 783-91-73</a>
+                </div>
+            </div>
+            <p style='margin-top: 20px;'>
+
+            <p>ООО «Цифра брокер». ОГРН: 1107746963785. Адрес местонахождения: 123112, г. Москва, 1-й
+                Красногвардейский проезд, д. 15, офис 18.02 (18 этаж МФК «Башня Меркурий», ММДЦ «Москва-Сити»). Лицензия
+                на осуществление брокерской деятельности № 045-13561-100000, выдана ФСФР России 19.05.2011, срок
+                действия лицензии неограничен.</p>
+
+            <p>ООО «Цифра брокер» оказывает финансовые услуги на территории Российской Федерации на основании
+                бессрочных государственных лицензий профессионального участника рынка ценных бумаг на осуществление
+                брокерской, дилерской и депозитарной деятельности, а также деятельности по управлению ценными бумагами.
+                Регулирование деятельности ООО «Цифра брокер» и защиту интересов ее клиентов осуществляет
+                Центральный банк Российской Федерации.</p>
+
+            <p>Владение ценными бумагами и иными финансовыми инструментами всегда сопряжено с рисками: стоимость ценных
+                бумаг и иных финансовых инструментов может как расти, так и падать. Результаты инвестирования в прошлом
+                не являются гарантией получения доходов в будущем. В соответствии с законодательством ООО «Цифра
+                брокер» не гарантирует и не обещает в будущем доходности вложений, не дает гарантии надежности возможных
+                инвестиций и стабильности размеров возможных доходов. Услуги по совершению сделок с иностранными ценными
+                бумагами доступны для лиц, являющихся в соответствии с действующим законодательством квалифицированными
+                инвесторами, и производятся в соответствии с ограничениями, установленными действующим
+                законодательством.</p>
+
+            <p>Информационно-аналитические услуги и материалы предоставляются ООО «Цифра брокер» в рамках оказания
+                указанных услуг и не являются самостоятельным видом деятельности. ООО «Цифра брокер» оставляет за
+                собой право отказать в оказании услуг лицам, не удовлетворяющим предъявляемым к клиентам условиям или в
+                отношении которых установлен запрет/ограничения на оказание таких услуг в соответствии с
+                законодательством Российской Федерации или иных стран, где осуществляются операции. Также ограничения
+                могут быть наложены внутренними процедурами и контролем ООО «Цифра брокер».</p>
+            <br>
+            © 2011 – 2023 ООО «Цифра брокер»
+            </p>
+        </div>
+    </div>
+</footer>
+
+<div id="modal--pib">
+    <h3>Политика информационной безопасности</h3>
+    <p>Руководство ООО «Цифра брокер» (далее – Компания), осознает важность и необходимость развития и совершенствования мер
+        и средств обеспечения информационной безопасности в контексте изменения международного законодательства и норм
+        регулирования деятельности по защите информации и персональных данных, а также в контексте ожиданий клиентов.</p>
+    <p>Соблюдение требований по информационной безопасности, а также обеспечение конфиденциальности персональных данных
+        клиентов позволит создать конкурентные преимущества Компании, обеспечить ее стабильность, соответствие правовым,
+        регуляторным и договорным требованиям и повышение имиджа.</p>
+    <p>Для эффективной реализации процессов обеспечения информационной безопасности и защиты персональных данных в Компании
+        внедрена система управления информационной безопасностью (далее – СУИБ) в соответствии с требованиями международных
+        стандартов ISO/IEC 27001:2013 и ISO/IEC 27701:2019.</p>
+
+    <p><b>Цели и задачи</b></p>
+    <p>Целью обеспечения информационной безопасности является поддержание устойчивого функционирования Компании, защита
+        процессов и активов, принадлежащих Компании и ее клиентам.</p>
+    <p><b>Цели Компании в области информационной безопасности:</b></p>
+    <p>устойчивое функционирование и развитие Компании, обеспечение непрерывности предоставления услуг клиентам;</p>
+    <p>поддержание статуса Компании как надежного поставщика услуг брокерского обслуживания, доступа к торгам на
+        российских
+        и зарубежных фондовых рынках и депозитарного обслуживания в глазах потенциальных клиентов, увеличение
+        инвестиционной
+        привлекательности;
+    </p>
+    <p>гарантия защищенности процессов и активов, принадлежащих Компании и её клиентам;
+        соблюдение законодательных и иных регуляторных требований в области информационной безопасности и защиты
+        персональных данных во всех юрисдикциях, где представлен бизнес Компании.
+    </p>
+
+    <p><b>Задачи, решаемые для достижения целей в области информационной безопасности:</b></p>
+
+    <p>обеспечение выполнения требований международного законодательства в области защиты информации и персональных
+        данных, включая требования Общего регламента защиты персональных данных (GDPR) Европейского союза, а также
+        национальных стандартов и регулирующих документов в области информационной безопасности;
+        управление рисками информационной безопасности;
+    </p>
+    <p>применение различных организационных и технических мер по обеспечению информационной безопасности, использование
+        передовых технологий противодействия угрозам информационной безопасности;
+    </p>
+    <p>вовлечение работников Компании в процессы обеспечения информационной безопасности, повышение уровня
+        ответственности, осведомленности, постоянное обучение и получение обратной связи;
+    </p>
+    <p>обеспечение непрерывности бизнеса на основе комплекса организационно-методических и технических мероприятий,
+        направленных на минимизацию последствий утраты информационных активов, а также направленных на бесперебойное
+        оказание услуг клиентам;
+    </p>
+    <p>регулярная оценка соответствия СУИБ применимым внутренним и внешним требованиям посредством проведения
+        внутренних аудитов, мониторинга эффективности процессов СУИБ, анализа со стороны руководства Компании;
+    </p>
+    <p>внедрение корректирующих действий в случае выявления отклонений или несоответствий в работе СУИБ внутренним и
+        внешним требованиям.
+    </p>
+
+    <b>Принципы управления информационной безопасностью</b>
+    <p>Компания в области информационной безопасности руководствуется следующими основными принципами:</p>
+
+    <p>Законность. Защита активов Компании соответствует положениям и требованиям международных и национальных
+        действующих
+        законов, и иных нормативных правовых актов.
+    </p>
+    <p>Системность. Системный подход к обеспечению требований информационной безопасности означает учёт всех
+        взаимосвязанных, взаимодействующих и изменяющихся во времени элементов, условий и факторов, существенно значимых
+        для
+        понимания и решения задачи защиты информации и персональных данных.
+    </p>
+    <p>Комплексность. Информационная безопасность обеспечивается эффективным сочетанием организационных, методических
+        мер и
+        программно-технических средств. Применение различных средств и технологий защиты процессов и активов снижает
+        вероятность реализации наиболее значимых угроз информационной безопасности.
+    </p>
+    <p>Непрерывность совершенствования. Меры и средства защиты активов постоянно совершенствуются в соответствии с
+        результатами анализа функционирования СУИБ, учитывается появление новых способов и средств реализации угроз
+        информационной безопасности, а также принимается во внимание имеющийся опыт других организаций в сфере
+        информационной безопасности.
+    </p>
+    <p>Разумная достаточность и адекватность. Программно-технические средства и организационные меры, направленные на
+        защиту активов, проектируются и внедряются на основе регулярной оценки рисков таким образом, чтобы не повлечь за
+        собой существенное ухудшение основных функциональных характеристик, а также производительности информационных
+        систем
+        Компании.
+    </p>
+    <p>Персональная ответственность. Ответственность за обеспечение безопасности активов возлагается на каждого
+        работника в
+        пределах его полномочий.
+    </p>
+    <p>Контроль. Оценка эффективности системы защиты информации является неотъемлемой частью работ по обеспечению
+        информационной безопасности. С целью своевременного выявления и пресечения попыток нарушения установленных
+        правил
+        обеспечения безопасности активов, в Компании определены процедуры постоянного контроля использования систем
+        обработки и защиты активов, а результаты контроля подвергаются регулярному анализу.
+    </p>
+
+    <p>Руководство Компании личным примером демонстрирует свое лидерство и приверженность в отношении СУИБ и способствует
+        вовлечению и активному участию персонала Компании в процессах обеспечения информационной безопасности.</p>
+    <p>Руководство Компании берет на себя ответственность за соответствие положений политики информационной безопасности
+        требованиям заинтересованных сторон, доведение и разъяснение их работникам Компании и заинтересованным сторонам,
+        назначение ответственных за решение соответствующих задач для достижения этих целей на всех уровнях, а также за их
+        реализацию, периодический анализ и пересмотр.</p>
+    <a href="#" id="modal--pib__close" title="Закрыть">
+        <img src="/img/close.png" alt="Закрыть">
+    </a>
+</div>
+<div id="myOverlay"></div>
+<script src="/js/modal.js?v=1"></script>
+<script src='/js/main2.js?v=15'></script>
+<script src="/js/phone.js?v=8" type="text/javascript"></script>
+</body>
+
+</html>
